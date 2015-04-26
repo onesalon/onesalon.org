@@ -13,7 +13,7 @@ TIMEZONE = 'Europe/Paris'
 
 DEFAULT_LANG = u'en'
 
-#PAGE_URL = PAGE_SAVE_AS = '{slug}.html'
+PAGE_URL = PAGE_SAVE_AS = '{slug}.html'
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
