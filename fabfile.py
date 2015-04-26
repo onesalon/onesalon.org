@@ -1,5 +1,4 @@
 from fabric.api import *
-import fabric.contrib.project as project
 from signal import SIGHUP
 import os
 import sys
@@ -11,11 +10,13 @@ env.deploy_path = 'output'
 DEPLOY_PATH = env.deploy_path
 
 
+@task
 def bootstrap():
     local('pip install pelican markdown ghp-import yaml')
 
 
-def clean():
+@task(alias='clean')
+def clean_():
     if os.path.isdir(DEPLOY_PATH):
         local('rm -rf {deploy_path}'.format(**env))
         local('mkdir {deploy_path}'.format(**env))
@@ -35,14 +36,16 @@ def build_directory_page():
             ))
 
 
+@task
 def build(clean=False, watch=False, env=None):
     if clean:
-        clean()
+        clean_()
     build_directory_page()
-    tpl = 'ENV={env} pelican {watch} -s pelicanconf.py'
+    tpl = 'CONFIG={env} pelican {watch} -s pelicanconf.py'
     local(tpl.format(env=env, watch='-r' if watch else ''))
 
 
+@task
 def serve():
     os.chdir(env.deploy_path)
 
@@ -56,6 +59,7 @@ def serve():
     server.serve_forever()
 
 
+@task
 def develop():
     pid = os.fork()
     if not pid:
@@ -68,10 +72,12 @@ def develop():
             sys.exit()
 
 
+@task
 def preview():
     build(env='production')
 
 
+@task
 def publish():
     preview()
     local('ghp-import {deploy_path}'.format(**env))

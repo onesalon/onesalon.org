@@ -32,7 +32,7 @@ DEFAULT_PAGINATION = False
 
 # Uncomment following line if you want document-relative URLs when developing
 
-if os.environ.get('ENV') == 'production':
+if os.environ.get('CONFIG') == 'production':
     SITEURL = 'http://www.onesalon.org'
     RELATIVE_URLS = False
 
