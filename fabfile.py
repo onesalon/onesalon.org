@@ -11,7 +11,7 @@ DEPLOY_PATH = env.deploy_path
 
 
 def bootstrap():
-    local('pip install pelican markdown')
+    local('pip install pelican markdown ghp-import')
 
 
 def clean():
