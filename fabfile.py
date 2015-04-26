@@ -23,6 +23,13 @@ def clean():
 def build_directory_page():
     import yaml
     directory = yaml.load(open('content/extra/directory.yaml'))
+    with open('content/pages/directory.md', 'w') as f:
+        f.write('## Directory\n\n')
+        for chapter in directory['chapters']:
+            f.write('#### [{name}]({link})\n\n'.format(
+                name=chapter.get('name', chapter['location']),
+                link=chapter['link']
+            ))
 
 
 def build(clean=False, watch=False, env=None):
