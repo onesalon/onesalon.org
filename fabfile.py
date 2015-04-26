@@ -58,7 +58,11 @@ def develop():
     if not pid:
         return serve()
     else:
-        build(watch=True)
+        try:
+            build(watch=True)
+        except KeyboardInterrupt:
+            os.kill(pid)
+            os.exit()
 
 
 def preview():
