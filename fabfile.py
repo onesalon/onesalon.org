@@ -61,7 +61,7 @@ def publish():
     if not env.deploy_path:
         return
     local('rm -f /tmp/{deploy_path} && mv {deploy_path} /tmp/'.format(**env))
-    local('rm -rf .')
+    local('rm -rf *')
     local('mv /tmp/{deploy_path}/* ./'.format(**env))
     local('git add .')
     local('git commit -m $(date)')
