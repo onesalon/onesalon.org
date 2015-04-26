@@ -11,7 +11,7 @@ DEPLOY_PATH = env.deploy_path
 
 
 def bootstrap():
-    local('pip install pelican markdown ghp-import')
+    local('pip install pelican markdown ghp-import yaml')
 
 
 def clean():
@@ -20,14 +20,17 @@ def clean():
         local('mkdir {deploy_path}'.format(**env))
 
 
-def build(clean=False):
+def build_directory_page():
+    import yaml
+    directory = yaml.load(open('content/extra/directory.yaml'))
+
+
+def build(clean=False, watch=False, env=None):
     if clean:
         clean()
-    local('pelican -s pelicanconf.py')
-
-
-def regenerate():
-    local('pelican -r -s pelicanconf.py')
+    build_directory_page()
+    tpl = 'ENV={env} pelican {watch} -s pelicanconf.py'
+    local(tpl.format(env=env, watch='-r' if watch else ''))
 
 
 def serve():
@@ -43,13 +46,16 @@ def serve():
     server.serve_forever()
 
 
-def reserve():
-    build()
-    serve()
+def develop():
+    pid = os.fork()
+    if not pid:
+        return serve()
+    else:
+        build(watch=True)
 
 
 def preview():
-    local('ENV=production pelican -s pelicanconf.py')
+    build(env='production')
 
 
 def publish():
