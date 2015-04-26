@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
+import os
 
 AUTHOR = u'Admin'
 SITENAME = u'One Salon'
@@ -28,4 +29,14 @@ SOCIAL = ()
 DEFAULT_PAGINATION = False
 
 # Uncomment following line if you want document-relative URLs when developing
-#RELATIVE_URLS = True
+
+if os.environ.get('ENV') == 'production':
+    SITEURL = 'http://www.onesalon.org'
+    RELATIVE_URLS = False
+
+    DELETE_OUTPUT_DIRECTORY = True
+
+    # Following items are often useful when publishing
+
+    #DISQUS_SITENAME = ""
+    #GOOGLE_ANALYTICS = ""

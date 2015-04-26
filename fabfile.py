@@ -49,7 +49,7 @@ def reserve():
 
 
 def preview():
-    local('pelican -s publishconf.py')
+    local('ENV=production pelican -s pelicanconf.py')
 
 
 def publish():
