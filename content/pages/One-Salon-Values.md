@@ -1,3 +1,5 @@
+Title: One Salon Values
+
 # Introduction
 
 # Values
