@@ -20,13 +20,10 @@ def clean():
         local('mkdir {deploy_path}'.format(**env))
 
 
-def build():
+def build(clean=False):
+    if clean:
+        clean()
     local('pelican -s pelicanconf.py')
-
-
-def rebuild():
-    clean()
-    build()
 
 
 def regenerate():
@@ -56,14 +53,6 @@ def preview():
 
 
 def publish():
-    build()
-    local('git checkout gh-pages')
-    if not env.deploy_path:
-        return
-    local('rm -f /tmp/{deploy_path} && mv {deploy_path} /tmp/'.format(**env))
-    local('rm -rf *')
-    local('mv /tmp/{deploy_path}/* ./'.format(**env))
-    local('git add .')
-    local('git commit -m $(date)')
-    local('git push')
-    local('git checkout master')
+    preview()
+    local('ghp-import {deploy_path}'.format(**env))
+    local('git push origin gh-pages')
