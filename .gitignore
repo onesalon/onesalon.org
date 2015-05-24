@@ -2,3 +2,5 @@ cache
 output
 *.pyc
 .idea
+env
+generate_feed.sh
