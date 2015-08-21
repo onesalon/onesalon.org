@@ -82,3 +82,9 @@ def publish():
     preview()
     local('ghp-import {deploy_path}'.format(**env))
     local('git push origin gh-pages')
+
+
+@task
+def squarespace():
+    local('ghp-import squarespace')
+    local('git push origin gh-pages')
