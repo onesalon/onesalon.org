@@ -1,7 +1,7 @@
 Title: Chapters
 Sort: b
 
-## Directory
+## Chapters
 <!-- TODO add a google map -->
 
 ### China
