@@ -5,32 +5,41 @@ import os
 
 AUTHOR = u'Admin'
 SITENAME = u'One Salon'
+TIMEZONE = 'America/Los_Angeles'
 SITEURL = ''
 
 PATH = 'content'
+THEME = 'theme'
+STATIC_PATHS = ['img', 'extra']
+USE_FOLDER_AS_CATEGORY = True
 
-TIMEZONE = 'Europe/Paris'
-
-DEFAULT_LANG = u'en'
-
-PAGE_URL = PAGE_SAVE_AS = '{slug}.html'
-
-# Feed generation is usually not desired when developing
-FEED_ALL_ATOM = None
-CATEGORY_FEED_ATOM = None
-TRANSLATION_FEED_ATOM = None
-AUTHOR_FEED_ATOM = None
-AUTHOR_FEED_RSS = None
-
-# Blogroll
-LINKS = ()
-
-# Social widget
-SOCIAL = ()
+ARTICLE_URL = PAGE_URL = '{slug}'
+ARTICLE_SAVE_AS = PAGE_SAVE_AS = '{slug}/index.html'
 
 DEFAULT_PAGINATION = False
+TIMEZONE = 'America/Los_Angeles'
+DEFAULT_LANG = u'en'
 
-# Uncomment following line if you want document-relative URLs when developing
+FEED_RSS = None
+FEED_ATOM = None
+FEED_ALL_ATOM = None
+CATEGORY_FEED_ATOM = None
+AUTHOR_FEED_ATOM = AUTHOR_FEED_RSS = None
+TRANSLATION_FEED_ATOM = None
+
+AUTHOR_SAVE_AS = ''
+FEED_SAVE_AS = ''
+CATEGORY_SAVE_AS = ''
+ 
+DIRECT_TEMPLATES = ['index']
+# Blogroll
+LINKS = []
+SOCIAL = []
+
+
+EXTRA_PATH_METADATA = {
+    'extra/'+p: {'path': p} for p in os.listdir('content/extra')
+}
 
 if os.environ.get('CONFIG') == 'production':
     SITEURL = 'http://www.onesalon.org'
@@ -38,7 +47,5 @@ if os.environ.get('CONFIG') == 'production':
 
     DELETE_OUTPUT_DIRECTORY = True
 
-    # Following items are often useful when publishing
-
-    #DISQUS_SITENAME = ""
-    #GOOGLE_ANALYTICS = ""
+    #GOOGLE_ANALYTICS = "UA-67530965-1"
+    #VERIFY_CODE = 'bmy3nuQW4emYXaZlchSU3HxMcor52beaXkLmCS6uTVo'

@@ -5,7 +5,6 @@ import sys
 import SimpleHTTPServer
 import SocketServer
 
-# Local path configuration (can be absolute or relative to fabfile)
 env.deploy_path = 'output'
 DEPLOY_PATH = env.deploy_path
 
@@ -50,6 +49,7 @@ def serve():
     os.chdir(env.deploy_path)
 
     PORT = 8000
+
     class AddressReuseTCPServer(SocketServer.TCPServer):
         allow_reuse_address = True
 
@@ -81,10 +81,4 @@ def preview():
 def publish():
     preview()
     local('ghp-import {deploy_path}'.format(**env))
-    local('git push origin gh-pages')
-
-
-@task
-def squarespace():
-    local('ghp-import squarespace')
     local('git push origin gh-pages')
