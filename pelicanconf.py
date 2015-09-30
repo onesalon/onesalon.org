@@ -9,8 +9,8 @@ TIMEZONE = 'America/Los_Angeles'
 SITEURL = ''
 
 PATH = 'content'
-THEME = 'theme'
-STATIC_PATHS = ['img', 'extra']
+THEME = '.'
+STATIC_PATHS = ['extra']
 USE_FOLDER_AS_CATEGORY = True
 
 ARTICLE_URL = PAGE_URL = '{slug}'
@@ -28,13 +28,20 @@ AUTHOR_FEED_ATOM = AUTHOR_FEED_RSS = None
 TRANSLATION_FEED_ATOM = None
 
 AUTHOR_SAVE_AS = ''
+AUTHORS_SAVE_AS = ''
 FEED_SAVE_AS = ''
 CATEGORY_SAVE_AS = ''
+CATEGORIES_SAVE_AS = ''
+TAGS_SAVE_AS = ''
+TAG_SAVE_AS = ''
  
 DIRECT_TEMPLATES = ['index']
 # Blogroll
 LINKS = []
 SOCIAL = []
+
+ARTICLE_ORDER_BY = 'sort'
+PAGE_ORDER_BY = 'sort'
 
 
 EXTRA_PATH_METADATA = {

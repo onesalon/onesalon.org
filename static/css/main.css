@@ -1,0 +1,41 @@
+body {
+  padding-top: 100px;
+}
+body.body-splash {
+    background: url('/theme/images/splash.jpg');
+    background-size: cover;
+}
+
+.navbar {
+  background-color: rgba(210, 192, 152, 0.901961);
+  font-family:futura;
+  text-transform:uppercase;
+}
+
+.navbar-brand {
+    color:#fff;
+    background-color:transparent;
+    font-size:36px;
+    letter-spacing:4px;
+    font-weight:700;
+}
+.navbar-brand:hover {
+    color:#fff;
+    background-color:transparent;
+}
+.navbar-brand:focus {
+    color:#fff;
+    background-color:transparent;
+}
+.navbar-container {
+  padding:25px 80px;
+}
+.navbar-link {
+  letter-spacing:2px;
+  color:#fff;
+  background-color:transparent;
+}
+.nav>li>a.navbar-link:hover {
+  color:#fff;
+  background-color:transparent;
+}

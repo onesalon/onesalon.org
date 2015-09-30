@@ -1,22 +1,23 @@
-Title: Directory
-Sort: a
+Title: Chapters
+Sort: b
 
 ## Directory
 <!-- TODO add a google map -->
 
 ### China
 
-#### [Tianjin]()
+#### [Tianjin](#)
 
-#### [Shanghai]()
+#### [Shanghai](#)
 
-#### [Hong Kong]()
+#### [Hong Kong](#)
 
-#### [Guangzhou]()
+#### [Guangzhou](#)
 
-#### [Beijing]()
+#### [Beijing](#)
 
-#### [Nanjing]()
+#### [Nanjing](#)
+Run by Allen Lau
 
 ### United States
 
@@ -24,19 +25,27 @@ Sort: a
 Run by Gwen Brinsmead, Kimberly Han, and Kurt Spindler
 
 #### [Palo Alto](http://www.facebook.com/groups/stanfordsalon)
-Run by 
+Run by Adrik McIlroy and Michael Gasiorek
 
 #### [New York City](https://www.facebook.com/groups/NYCSalon/)
+Run by Tarun Chitra
 
 #### [Chattanooga](https://www.facebook.com/groups/879080052181326/)
+Run by Patrick Gray
 
-#### [Boston]()
+#### [Boston](#)
+Run by Karen Lai
 
 ### Europe
 
 #### [Paris](https://www.facebook.com/groups/parissalon/)
+Run by CK Kaligotla and Leona Liu
 
 #### [Berne](https://www.facebook.com/groups/145823042428305/)
 
-#### [London]()
+#### [London](#)
+Run by Andrea Zhu
 
+### Your City
+If you're interested in bringing the One Salon community to your city, contact max_song
+at brown dot edu.

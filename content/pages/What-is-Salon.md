@@ -1,4 +1,4 @@
-Title: What is Salon?
+Title: What is Salon
 Sort: a
 
 # What is One Salon?
