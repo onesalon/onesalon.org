@@ -1,4 +1,0 @@
-FB_TOKEN=''
-AWS_ACCESS_KEY=''
-AWS_SECRET_KEY=''
-. env/bin/activate && python generate_feed.py
