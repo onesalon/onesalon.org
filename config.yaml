@@ -1,7 +1,0 @@
-facebook:
-  client_id: 391416227726751
-  client_secret: ac2cedf8fb00a4c575f23166353b328e
-
-deploy:
-  url: www.kurtsp.com
-  root_path: feed

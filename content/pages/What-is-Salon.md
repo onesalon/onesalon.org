@@ -1,3 +1,6 @@
+Title: What is Salon?
+Sort: a
+
 # What is One Salon?
 
 At its core, Salon is a weekly gathering with an open environment full of thoughtful, creative, and
