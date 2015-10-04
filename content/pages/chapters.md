@@ -36,6 +36,9 @@ Run by Patrick Gray
 #### [Boston](#)
 Run by Karen Lai
 
+#### [Brown University](https://www.facebook.com/groups/onesalonbrown/)
+Run by Max Song
+
 ### Europe
 
 #### [Paris](https://www.facebook.com/groups/parissalon/)
