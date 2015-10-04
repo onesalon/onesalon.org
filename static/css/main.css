@@ -4,6 +4,7 @@ body {
 body.body-splash {
     background: url('/theme/images/splash.jpg');
     background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .navbar {
