@@ -45,6 +45,7 @@ Run by Max Song
 Run by CK Kaligotla and Leona Liu
 
 #### [Berne](https://www.facebook.com/groups/145823042428305/)
+Run by Sarah Gloor 
 
 #### [London](#)
 Run by Andrea Zhu
