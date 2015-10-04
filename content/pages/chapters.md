@@ -4,6 +4,11 @@ Sort: b
 ## Chapters
 <!-- TODO add a google map -->
 
+### Africa
+
+#### [Nairobi](https://www.facebook.com/groups/nairobisalon/)
+Run by Chief Nyamweya
+
 ### China
 
 #### [Tianjin](#)
