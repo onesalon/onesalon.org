@@ -56,5 +56,5 @@ Run by Sarah Gloor
 Run by Andrea Zhu
 
 ### Your City
-If you're interested in bringing the One Salon community to your city, contact max_song
-at brown dot edu.
+If you're interested in bringing the One Salon community to your city, contact maxsong123
+at gmail dot com.
