@@ -10,7 +10,7 @@ Salon is a place to learn, to draw inspiration, and to be surrounded by doers an
 place to let our creativity run wild, to expose ourselves to new topics and new viewpoints, and to
 inject serendipity into each and every week.
 
-With eight chapters and growing, Salon is also growing to become an international community around
+With 13 chapters and growing, Salon is also growing to become an international community around
 these values, so that a Saloner can visit any city and immediately have a community of people that
 hold our values important.
 
