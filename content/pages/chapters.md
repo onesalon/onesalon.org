@@ -11,18 +11,20 @@ Run by Chief Nyamweya
 
 ### China
 
-#### [Tianjin](#)
+#### [Tianjin](http://bit.ly/onesalontianjin)
+Run by Winnie Sun
 
-#### [Shanghai](#)
-
-#### [Hong Kong](#)
-
-#### [Guangzhou](#)
-
-#### [Beijing](#)
-
-#### [Nanjing](#)
+#### [Nanjing](http://bit.ly/onesalonnanjing)
 Run by Allen Lau
+
+#### [Guangzhou](http://bit.ly/onesalonguangzhou)
+Run by Jeff Tang
+
+#### [Beijing](http://bit.ly/onesalonbeijing)
+Run by Katarina Slobodova and Yachi Zhang
+
+#### [Shanghai](http://bit.ly/onesalonshanghai)
+Run by Jason Mai & Jessica Wong
 
 ### United States
 
