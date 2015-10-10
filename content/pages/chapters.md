@@ -54,7 +54,7 @@ Run by CK Kaligotla and Leona Liu
 #### [Berne](https://www.facebook.com/groups/145823042428305/)
 Run by Sarah Gloor 
 
-#### [London](#)
+#### [London](https://www.facebook.com/groups/1148476458514703)
 Run by Andrea Zhu
 
 ### Your City
