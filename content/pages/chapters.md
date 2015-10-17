@@ -55,7 +55,7 @@ Run by CK Kaligotla and Leona Liu
 Run by Sarah Gloor 
 
 #### [London](https://www.facebook.com/groups/1148476458514703)
-Run by Andrea Zhu
+Run by Andrea Zhu and Alex Lyons
 
 ### Your City
 If you're interested in bringing the One Salon community to your city, contact maxsong123

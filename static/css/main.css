@@ -28,9 +28,6 @@ body.body-splash {
     color:#fff;
     background-color:transparent;
 }
-.navbar-container {
-  padding:25px 80px;
-}
 .navbar-link {
   letter-spacing:2px;
   color:#fff;
@@ -39,4 +36,20 @@ body.body-splash {
 .nav>li>a.navbar-link:hover {
   color:#fff;
   background-color:transparent;
+}
+
+@media (min-width: 480px) {
+  .navbar-container {
+    padding:25px 80px;
+  }
+}
+@media (max-width: 480px) {
+  .navbar-link {
+    padding-top:0px !important;
+    padding-bottom:0px !important;
+  }
+  .navbar-container {
+    padding-top:0px;
+    padding-bottom:0px;
+  }
 }
