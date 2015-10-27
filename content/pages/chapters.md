@@ -11,19 +11,19 @@ Run by Chief Nyamweya
 
 ### China
 
-#### [Tianjin](http://bit.ly/onesalontianjin)
+#### [Tianjin](http://mp.weixin.qq.com/s?__biz=MzIwNzA1NTE2Mg==&mid=211436753&idx=2&sn=065336d84c5b8d0c0487ca59ade6519f#rd)
 Run by Winnie Sun
 
-#### [Nanjing](http://bit.ly/onesalonnanjing)
+#### [Nanjing](http://mp.weixin.qq.com/s?__biz=MzIwNzA1NTE2Mg==&mid=211436753&idx=1&sn=aa8feff43d1e7b6ff21d2913bf3ff001#rd)
 Run by Allen Lau
 
-#### [Guangzhou](http://bit.ly/onesalonguangzhou)
+#### [Guangzhou](http://mp.weixin.qq.com/s?__biz=MzIwNzA1NTE2Mg==&mid=211436753&idx=5&sn=0322716eceeeebfbef13a0a466489495#rd)
 Run by Jeff Tang
 
-#### [Beijing](http://bit.ly/onesalonbeijing)
+#### [Beijing](http://mp.weixin.qq.com/s?__biz=MzIwNzA1NTE2Mg==&mid=211436753&idx=4&sn=8cf584b3f03cc2319eff0e9cf5b3527d#rd)
 Run by Katarina Slobodova and Yachi Zhang
 
-#### [Shanghai](http://bit.ly/onesalonshanghai)
+#### [Shanghai](http://mp.weixin.qq.com/s?__biz=MzIwNzA1NTE2Mg==&mid=211436753&idx=3&sn=fbb36ae8172f178461bf2ad3084c8061#rd)
 Run by Jason Mai & Jessica Wong
 
 ### United States
