@@ -34,6 +34,9 @@ Run by Gwen Brinsmead, Kimberly Han, and Kurt Spindler
 #### [Palo Alto](http://www.facebook.com/groups/stanfordsalon)
 Run by Adrik McIlroy and Michael Gasiorek
 
+#### [Gunn](https://www.facebook.com/groups/1645906925677180/)
+Run by Bryan Owens
+
 #### [New York City](https://www.facebook.com/groups/NYCSalon/)
 Run by Tarun Chitra
 
