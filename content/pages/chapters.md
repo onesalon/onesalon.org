@@ -40,9 +40,6 @@ Run by Bryan Owens
 #### [New York City](https://www.facebook.com/groups/NYCSalon/)
 Run by Tarun Chitra
 
-#### [Chattanooga](https://www.facebook.com/groups/879080052181326/)
-Run by Patrick Gray
-
 #### [Boston](#)
 Run by Karen Lai
 
