@@ -26,6 +26,12 @@ Run by Katarina Slobodova and Yachi Zhang
 #### [Shanghai](http://mp.weixin.qq.com/s?__biz=MzIwNzA1NTE2Mg==&mid=211436753&idx=3&sn=fbb36ae8172f178461bf2ad3084c8061#rd)
 Run by Jason Mai & Jessica Wong
 
+
+### Kazakhstan
+
+#### [Almaty](https://www.facebook.com/groups/467020143482370/)
+Run by Aliya Kadyrova and Aigerim Khafizova
+
 ### United States
 
 #### [San Francisco](http://www.facebook.com/groups/salonsf)
